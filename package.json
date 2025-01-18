@@ -1,0 +1,30 @@
+{
+  "name": "reactguru",
+  "version": "1.0.0",
+  "description": "React Guruu!",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aisikju/ReactGuru.git"
+  },
+  "keywords": [],
+  "author": "Aisik Saha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aisikju/ReactGuru/issues"
+  },
+  "homepage": "https://github.com/aisikju/ReactGuru#readme",
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "browserslist": {
+    "last 2 Chrome version"
+  }
+}
