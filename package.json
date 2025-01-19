@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "React Guruu!",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -24,7 +26,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
-  "browserslist": {
+  "browserslist": [
     "last 2 Chrome version"
-  }
+  ]
 }

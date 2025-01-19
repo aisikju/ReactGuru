@@ -1,14 +1,27 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const heading = React.createElement(
-    "h1", 
-    { id: "heading", xyz: "abc"}, 
-    "Hello World from React!"
-)
+// React Element
 
-console.log(heading)
+const title = (
+    <h1 className="head" tabIndex="5">
+        React Guru using JSX
+    </h1>
+);
 
-const root = ReactDOM.createRoot(document.getElementById("root"))
 
-root.render(heading)
+// Component Composition 
+
+
+// React Functional Component - normal js function which returns a JSX / React Element
+const HeadingComponent = () => (
+    <div id="container">
+       {title }
+       <h1 className="heading">React Guru Functional Component</h1>
+    </div>  
+);
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+
+root.render(<HeadingComponent />);  // Replace everything inside root
