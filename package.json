@@ -23,9 +23,14 @@
     "process": "^0.11.10"
   },
   "dependencies": {
+    "@headlessui/react": "^2.2.0",
+    "@heroicons/react": "^2.2.0",
+    "@tailwindcss/postcss": "^4.0.6",
+    "postcss": "^8.5.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-router-dom": "^6.11.2"
+    "react-router-dom": "^6.11.2",
+    "tailwindcss": "^4.0.6"
   },
   "browserslist": [
     "last 2 Chrome version"
